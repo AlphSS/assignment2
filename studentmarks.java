@@ -4,19 +4,6 @@ import Assignment2.SY.symarks;
 import Assignment2.TY.TYClass;
 import java.io.*;
 
-class StudentInfo{
-    int rollno;
-    String name,grade;
-    public float gt,tyt,syt;
-    public float per;
-    public void get() throws IOException{
-        System.out.println("Enter roll number and name of the student: ");
-        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-        rollno=Integer.parseInt(br.readLine());
-        name=br.readLine();
-    }
-}
-
 class studentmarks {
 
     public static void main(String args[]) throws IOException {
